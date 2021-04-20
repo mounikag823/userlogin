@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySpectrumTest", "MySpectrumTest\MySpectrumTest.csproj", "{6161392C-7004-4AB3-A715-2FF36F6BB99F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6161392C-7004-4AB3-A715-2FF36F6BB99F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6161392C-7004-4AB3-A715-2FF36F6BB99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6161392C-7004-4AB3-A715-2FF36F6BB99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6161392C-7004-4AB3-A715-2FF36F6BB99F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DF17F8F-B584-4D8B-B685-4473819120E4}
+	EndGlobalSection
+EndGlobal

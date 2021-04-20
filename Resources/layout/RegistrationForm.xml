@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout1">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUserName"
+        android:textColor="@android:color/black"
+        android:fontFamily="serif"
+        android:hint="User Name"
+        android:textSize="@dimen/abc_text_size_body_1_material"/>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/txtUserNameError"
+          android:textColor="@color/accent_material_light"
+          android:visibility="invisible"/>
+     <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPassword"
+        android:textColor="@android:color/black"
+        android:fontFamily="serif"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="@dimen/abc_text_size_body_1_material"/>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/txtPasswordError"
+          android:textColor="@color/accent_material_light"
+          android:visibility="invisible"/>
+      <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtConfirmPassword"
+        android:textColor="@android:color/black"
+        android:fontFamily="serif"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        android:textSize="@dimen/abc_text_size_body_1_material"/>
+
+        <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/txtConfirmPasswordError"
+          android:textColor="@color/accent_material_light"
+          android:visibility="invisible"/>
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEmailId"
+        android:textColor="@android:color/black"
+        android:fontFamily="serif"
+        android:inputType="textEmailAddress"
+        android:hint="Email ID"
+        android:textSize="@dimen/abc_text_size_body_1_material"/>
+        <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/txtEmailError"
+          android:textColor="@color/accent_material_light"
+          android:visibility="invisible"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/btnSubmit"
+            android:layout_gravity="bottom"/>
+    </LinearLayout>
+</RelativeLayout>
